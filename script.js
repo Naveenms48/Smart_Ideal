@@ -19,12 +19,12 @@ document.querySelectorAll('section').forEach(section => {
       section.classList.remove('activeness');
     });
 
-    section.addEventListener('scroll', () => {
+    section.addEventListener('scrollin', () => {
       section.classList.add('activeness');
     });
 
     // When the section loses focus (keyboard interaction)
-    section.addEventListener('scroll', () => {
+    section.addEventListener('scrollout', () => {
       section.classList.remove('activeness');
     });
 
