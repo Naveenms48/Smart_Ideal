@@ -37,7 +37,3 @@ var list = document.querySelector('.list')
 menu.addEventListener('click', () => {
   list_items.classList.toggle('active')
 })
-
-list.addEventListener('click',()=>{
-  list_items.style.display = 'none'
-})
