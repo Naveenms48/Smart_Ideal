@@ -1089,7 +1089,7 @@ footer h2{
         left: 0%;
         border-bottom-right-radius: 50px;
         border-bottom-left-radius: 50px;
-        /* margin-top: -100px; */
+        /* margin-top: -999px; */
     }
     .list-items li{
         display: block;
