@@ -1093,7 +1093,7 @@ footer h2{
     }
     .list-items li{
         display: block;
-        padding: 12px 180px;
+        padding: 12px 100px;
         border-bottom : 1px solid whitesmoke;
     }
     .list-items li:last-child{

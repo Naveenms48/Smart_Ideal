@@ -32,7 +32,6 @@ document.querySelectorAll('section').forEach(section => {
 
 var menu = document.querySelector('.menu-btn');
 var list_items = document.querySelector('.list-items');
-var list = document.querySelector('.list')
 
 menu.addEventListener('click', () => {
   list_items.classList.toggle('active')
