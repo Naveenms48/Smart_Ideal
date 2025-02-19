@@ -320,12 +320,13 @@ section.activeness .services-logo1{
     width: 100%;
     /* height: 800px; */
     background-color: #1e0841;
+    padding: 100px 0;
     /* background-color: #3a2c50; */
     /* margin-top: -50px; */
 }
 
 .design-head{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     text-align: center;
     position: relative;
     left: -100%;
