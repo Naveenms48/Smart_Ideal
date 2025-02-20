@@ -1128,7 +1128,7 @@ footer h2{
 
     .about{
         width: 100%;
-        /* height: 50vh; */
+        height: 50vh;
         background-image: url(imgs/about-img.jpeg);
         background-position: center;
         background-repeat: no-repeat;
