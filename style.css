@@ -1331,7 +1331,7 @@ footer h2{
         margin: 50px 0px;
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
+        /* gap: 20px; */
         border: none;
         outline: none;
     }
@@ -1681,7 +1681,7 @@ footer h2{
     
     .client1 h2{
         padding-top: 30px;
-        padding-left: 100px;
+        text-align: center;
         color: black;
         font-weight: bold;
         font-size: 24px;
@@ -1861,14 +1861,14 @@ footer h2{
         width: 20px;
     }
     .logo2 p{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .footer-links{
         width: 40%;
     }
     .footer-links ul li a{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
 
@@ -1877,7 +1877,7 @@ footer h2{
     }
     
     .footer-hours ul li{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .footer-location{
@@ -1888,7 +1888,7 @@ footer h2{
         text-align: center;
     }
     .footer-location p{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .location{
@@ -1901,7 +1901,7 @@ footer h2{
     }
 
     .mail a{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .copyrights{
@@ -2537,7 +2537,7 @@ footer h2{
     
     .client1 h2{
         padding-top: 30px;
-        padding-left: 100px;
+        text-align: center;
         color: black;
         font-weight: bold;
         font-size: 24px;
