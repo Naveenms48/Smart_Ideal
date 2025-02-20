@@ -2515,15 +2515,6 @@ footer h2{
         text-align: center;
         margin-top: 30px;
         margin-left: 100px;
-        position: relative;
-        left: -100%;
-        opacity: 0;
-        transition: left 2s ease-in-out, opacity 2s ease-in-out;
-    }
-    
-    section.activeness .client1 h3{
-        left: 0;
-        opacity: 1;
     }
     
     .client1 h2{
