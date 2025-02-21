@@ -1190,11 +1190,11 @@ footer h2{
     }
     
     .services-logos{
-        /* padding: 0 100px; */
         padding-bottom: 50px;
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
+        justify-content: center;
         /* align-items: center; */
     }
     
