@@ -639,7 +639,7 @@ section.activeness .design-head{
 .project-deliver{
     width: 100%;
     height: 100vh;
-    background-image: url(imgs/lap.jpeg);  
+    background-image: url(imgs/project-img.jpeg);  
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -1589,7 +1589,7 @@ footer h2{
     .project-deliver{
         width: 100%;
         /* height: 70vh; */
-        background-image: url(imgs/lap.jpeg);  
+        background-image: url(imgs/project-img.jpeg);  
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;  
@@ -1825,7 +1825,7 @@ footer h2{
     
     .color3{
         background: skyblue;
-    }
+    }                                       
     .design-content{
         display: flex;
         align-items: center;
@@ -2210,10 +2210,12 @@ footer h2{
         background-color: skyblue;
         /* background: linear-gradient(to right,skyblue 70%,slateblue 20% ) ; */
         margin: 50px 0px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        /* flex-wrap: wrap; */
         /* justify-content: space-evenly; */
-        align-items: center;
+        padding: 20px;
         border: none;
         outline: none;
     }
@@ -2432,8 +2434,9 @@ footer h2{
     .service-last{
         width: 100%;
         /* height: 120vh; */
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        /* flex-wrap: wrap; */
+        grid-template-columns: repeat(2,1fr);
         /* flex-direction: column; */
         align-items: center;
         gap: 30px;
@@ -2448,7 +2451,7 @@ footer h2{
         flex-direction: column;
         justify-content: flex-start;
         gap: 10px;
-        /* padding-left: 10px; */
+        padding-left: 20px;
     }
     
     .last img{
@@ -2499,7 +2502,7 @@ footer h2{
     .project-deliver{
         width: 100%;
         /* height: 70vh; */
-        background-image: url(imgs/lap.jpeg);  
+        background-image: url(imgs/project-img.jpeg);  
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;  
@@ -2552,8 +2555,8 @@ footer h2{
     }
     
     .deliver-items .item{
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2571,7 +2574,7 @@ footer h2{
     
     .item h3{
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: bold;
     }
     
