@@ -20,12 +20,12 @@ document.querySelectorAll('section').forEach(section => {
     });
 
     // When the section is touched (Mobile Devies)
-    section.addEventListener('touchstart', () => {
+    section.addEventListener('touchstart', (e) => {
       section.classList.add('activeness');
     });
 
     // When the section losses the touch (Mobile Devices)
-    section.addEventListener('touchend', () => {
+    section.addEventListener('touchend', (e) => {
       section.classList.remove('activeness');
     });
 
