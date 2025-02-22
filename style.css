@@ -616,6 +616,7 @@ section.activeness .design-head{
     font-size: 16px;
     line-height: 1.8;
     color: grey;
+    transition: 2s font-weight ease-in-out;
 }
 
 .last:hover{
@@ -1564,6 +1565,7 @@ footer h2{
         font-weight: bold;
         line-height: 1.8;
         color: grey;
+        transition: 2s font-weight ease-in-out;
     }
     
     .last:hover{
@@ -2474,6 +2476,7 @@ footer h2{
         font-size: 18px;
         line-height: 1.8;
         color: grey;
+        transition: 2s font-weight ease-in-out;
     }
     
     .last:hover{
