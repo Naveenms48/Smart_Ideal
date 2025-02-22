@@ -623,6 +623,9 @@ section.activeness .design-head{
         background-color: blueviolet;
         height: 3px;
     }
+    p{
+        font-weight: bold;
+    }
 }
 
 /* Projects */
@@ -1567,6 +1570,9 @@ footer h2{
         .line{
             background-color: blueviolet;
             height: 3px;
+        }
+        p{
+            font-weight: bold;
         }
     }
 

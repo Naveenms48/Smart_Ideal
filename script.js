@@ -21,13 +21,20 @@ document.querySelectorAll('section').forEach(section => {
 
     // When the section is touched (Mobile Devies)
     section.addEventListener('touchstart', (e) => {
+      console.log('Touch Start');
       section.classList.add('activeness');
     });
 
     // When the section losses the touch (Mobile Devices)
-    section.addEventListener('touchend', (e) => {
+    section.addEventListener('touchmove', (e) => {
+      console.log('Touch Move');
       section.classList.remove('activeness');
     });
+
+    // section.addEventListener('touchend', (e) => {
+    //   console.log('Touch End');
+    //   section.classList.remove('activeness');
+    // });
 
 });
 
