@@ -19,12 +19,13 @@ document.querySelectorAll('section').forEach(section => {
       section.classList.remove('activeness');
     });
 
-    section.addEventListener('scrollin', () => {
+    // When the section is touched (Mobile Devies)
+    section.addEventListener('touchstart', () => {
       section.classList.add('activeness');
     });
 
-    // When the section loses focus (keyboard interaction)
-    section.addEventListener('scrollout', () => {
+    // When the section losses the touch (Mobile Devices)
+    section.addEventListener('touchend', () => {
       section.classList.remove('activeness');
     });
 
@@ -37,7 +38,7 @@ menu.addEventListener('click', () => {
   list_items.classList.toggle('active')
 })
 
-list_items.addEventListener('click', () => {
-  list_items.style.display = 'none'
-})
+// list_items.addEventListener('click', () => {
+//   list_items.style.display = 'none'
+// })
 
