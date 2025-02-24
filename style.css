@@ -1434,7 +1434,7 @@ footer h2{
     }
     
     .client h2{
-        color: rgba(255, 255, 255, 0.733);
+        color: black;
         font-weight: bold;
         padding: 0 20px;
         padding-top: 30px;
