@@ -26,10 +26,10 @@ document.querySelectorAll('section').forEach(section => {
     });
 
     // When the section losses the touch (Mobile Devices)
-    section.addEventListener('touchmove', (e) => {
+    // section.addEventListener('touchmove', (e) => {
       // console.log('Touch Move');
-      section.classList.remove('activeness');
-    });
+      // section.classList.remove('activeness');
+    // });
 
     // section.addEventListener('touchend', (e) => {
     //   console.log('Touch End');
