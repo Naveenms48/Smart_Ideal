@@ -1340,8 +1340,10 @@ footer h2{
         background-color: skyblue;
         /* background: linear-gradient(to right,skyblue 70%,slateblue 20% ) ; */
         margin: 50px 0px;
-        display: flex;
-        flex-wrap: wrap;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-wrap: wrap; */
         gap: 20px;
         /* padding: 20px 0; */
         border: none;
@@ -1635,9 +1637,11 @@ footer h2{
     
     .deliver-items{
         /* padding: 80px 0; */
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* flex-wrap: wrap; */
         /* gap: 50px; */
+        align-items: center;
         justify-content: center;
     }
     

@@ -38,14 +38,38 @@ document.querySelectorAll('section').forEach(section => {
 
 });
 
-var menu = document.querySelector('.menu-btn');
-var list_items = document.querySelector('.list-items');
+// var menu = document.querySelector('.menu-btn');
+// var list_items = document.querySelector('.list-items');
 
-menu.addEventListener('click', () => {
-  list_items.classList.toggle('active')
-})
-
-// list_items.addEventListener('click', () => {
-//   list_items.style.display = 'none'
+// menu.addEventListener('click', () => {
+//   list_items.classList.toggle('active')
 // })
 
+document.addEventListener("DOMContentLoaded", function () {
+  var menuButton = document.querySelector('.menu-btn');
+  var menuList = document.querySelector('.list-items');
+  var menuItems = document.querySelectorAll(".list-items li a");
+
+  if (menuButton && menuList) {
+      // Ensure the menu is hidden initially
+      // menuList.style.display = "none";
+
+      // Toggle menu visibility when clicking the menu button
+      menuButton.addEventListener('click', function () {
+          if (menuList.style.display === "none" || menuList.style.display === "") {
+              menuList.style.display = "block";
+          } else {
+              menuList.style.display = "none";
+          }
+      });
+
+      // Hide menu when clicking a menu item
+      menuItems.forEach(item => {
+          item.addEventListener("click", function () {
+              menuList.style.display = "none";
+          });
+      });
+  } else {
+      console.error("Menu button or list items not found!");
+  }
+});
