@@ -1435,6 +1435,7 @@ footer h2{
     
     .client h2{
         color: white;
+        opacity: 2;
         font-weight: bold;
         padding: 0 20px;
         padding-top: 30px;
@@ -1799,7 +1800,7 @@ footer h2{
     .design-color h2{
         color: white;
         padding: 20px;
-        font-size: 24px;
+        font-size: 22px;
     }
     .design-color:hover{
         margin-top: -10px;
