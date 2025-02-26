@@ -310,7 +310,7 @@ footer{
 
     .content p{
         font-size: 18px;
-        /* text-align: center; */
+        text-align: start;
     }
     
     .about-img{
