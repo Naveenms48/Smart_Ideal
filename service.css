@@ -327,8 +327,11 @@ footer{
     font-size: 18px;
     font-weight: 200;
 }
+.footer-content ul li a{
+    color: skyblue;
+}
 
-.footer-content ul li:hover{
+.footer-content ul li:hover,ul li a:hover{
     color: white;
 }
 
@@ -629,8 +632,11 @@ footer{
         font-size: 20px;
         font-weight: 200;
     }
+    .footer-content ul li a{
+        color: skyblue;
+    }
 
-    .footer-content ul li:hover{
+    .footer-content ul li:hover,ul li a:hover{
         color: white;
     }
 
@@ -933,8 +939,11 @@ footer{
         font-size: 20px;
         font-weight: 200;
     }
+    .footer-content ul li a{
+        color: skyblue;
+    }
 
-    .footer-content ul li:hover{
+    .footer-content ul li:hover,ul li a:hover{
         color: white;
     }
 
