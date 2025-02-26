@@ -163,52 +163,6 @@ header{
     text-align: justify; 
 }
 
-
-.course:nth-child(1):hover{
-    background-image: url(imgs/lap.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-
-.course:nth-child(2):hover{
-    background-image: url(imgs/mobile-img.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-
-.course:nth-child(3):hover{
-    background-image: url(imgs/client1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-
-.course:nth-child(4):hover{
-    background-image: url(imgs/graphic-img.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-
-.course:nth-child(5):hover{
-    background-image: url(imgs/digital-img.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-weight: bold;
-}
-
 .service-last{
     width: 100%;
     background-color: #f0f0f0;
@@ -508,52 +462,6 @@ footer{
         color: black;
         line-height: 1.5;
         text-align: justify; 
-    }
-    
-    
-    .course:nth-child(1):hover{
-        background-image: url(imgs/lap.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .course:nth-child(2):hover{
-        background-image: url(imgs/mobile-img.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .course:nth-child(3):hover{
-        background-image: url(imgs/client1.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .course:nth-child(4):hover{
-        background-image: url(imgs/graphic-img.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .course:nth-child(5):hover{
-        background-image: url(imgs/digital-img.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
     }
     
     .service-last{
