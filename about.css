@@ -263,7 +263,7 @@ footer{
     }
     .list-items li{
         width: 100%;
-        border-bottom : 1px solid whitesmoke;
+        /* border-bottom : 1px solid whitesmoke; */
     }
     .list-items li:last-child{
         border-bottom: none;
